@@ -106,7 +106,7 @@ namespace GameServer
                 }
 
                 ::std::stringstream ss; 
-                ss  << "[Player ip:" << ip4_to_string(pObj->m_pUserDB->m_ipAddress) << "]"
+                ss  << "[Player ip: null]"
                     << "[Player race:" << pObj->m_Param.GetRaceCode() << "]"
                     << "[Player serial:" << pObj->m_Param.GetCharSerial() 
                     << ";Player name:" << pObj->m_Param.GetCharNameA() << "]"
