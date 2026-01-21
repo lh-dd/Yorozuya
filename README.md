@@ -2,8 +2,12 @@
 Free defense for RFOnline server version 2.2.3.2
 
 # Requirements for build
-> Visual Studio 2017 15.5.2 and higher<br>
-> x64 toolset visual studio<br>
+> Visual Studio 2026<br>
+> Install components:<br>
+> MSVC v141 - VS 2017 C++ x64/x86 build tools (v14.16)<br>
+> C++ ATL for v141 build tools (x86 & x64)<br>
+> C++ MFC for v141 build tools (x86 & x64) (for P7Lib)<br>
+> Do not retarget sdk.<br>
 
 # Main list with fixed bugs
 > Fixed coordinate dup<br>
