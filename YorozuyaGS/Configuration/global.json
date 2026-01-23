@@ -28,6 +28,12 @@
         }
       },
       {
+        "name": "addon.datefix",
+        "config": {
+          "activated": true
+        }
+      },
+      {
         "name": "fix.vote",
         "config": {
           "level": 30,
@@ -184,6 +190,406 @@
               "address": "0x0b2a22",
               "value": "EB",
               "description": "ignoring bugged loot stack"
+            },
+            {
+              "address": "0x70907f",
+              "value": "75",
+              "description": "datefix offset [1/80]"
+            },
+            {
+              "address": "0x7261e1",
+              "value": "75",
+              "description": "datefix offset [2/80]"
+            },
+            {
+              "address": "0x736c90",
+              "value": "75",
+              "description": "datefix offset [3/80]"
+            },
+            {
+              "address": "0x736cc1",
+              "value": "75",
+              "description": "datefix offset [4/80]"
+            },
+            {
+              "address": "0x76acaf",
+              "value": "75",
+              "description": "datefix offset [5/80]"
+            },
+            {
+              "address": "0x76ad0c",
+              "value": "75",
+              "description": "datefix offset [6/80]"
+            },
+            {
+              "address": "0x76ad3c",
+              "value": "75",
+              "description": "datefix offset [7/80]"
+            },
+            {
+              "address": "0x76ad70",
+              "value": "75",
+              "description": "datefix offset [8/80]"
+            },
+            {
+              "address": "0x76ad9b",
+              "value": "75",
+              "description": "datefix offset [9/80]"
+            },
+            {
+              "address": "0x76adca",
+              "value": "75",
+              "description": "datefix offset [10/80]"
+            },
+            {
+              "address": "0x76adf3",
+              "value": "75",
+              "description": "datefix offset [11/80]"
+            },
+            {
+              "address": "0x76ae26",
+              "value": "75",
+              "description": "datefix offset [12/80]"
+            },
+            {
+              "address": "0x76ae52",
+              "value": "75",
+              "description": "datefix offset [13/80]"
+            },
+            {
+              "address": "0x76ae79",
+              "value": "75",
+              "description": "datefix offset [14/80]"
+            },
+            {
+              "address": "0x76aea1",
+              "value": "75",
+              "description": "datefix offset [15/80]"
+            },
+            {
+              "address": "0x76aecf",
+              "value": "75",
+              "description": "datefix offset [16/80]"
+            },
+            {
+              "address": "0x76aef9",
+              "value": "75",
+              "description": "datefix offset [17/80]"
+            },
+            {
+              "address": "0x76af20",
+              "value": "75",
+              "description": "datefix offset [18/80]"
+            },
+            {
+              "address": "0x76af4c",
+              "value": "75",
+              "description": "datefix offset [19/80]"
+            },
+            {
+              "address": "0x76af82",
+              "value": "75",
+              "description": "datefix offset [20/80]"
+            },
+            {
+              "address": "0x76fca4",
+              "value": "75",
+              "description": "datefix offset [21/80]"
+            },
+            {
+              "address": "0x793d55",
+              "value": "75",
+              "description": "datefix offset [22/80]"
+            },
+            {
+              "address": "0x7a543c",
+              "value": "75",
+              "description": "datefix offset [23/80]"
+            },
+            {
+              "address": "0x7a5475",
+              "value": "75",
+              "description": "datefix offset [24/80]"
+            },
+            {
+              "address": "0x7ad8ba",
+              "value": "75",
+              "description": "datefix offset [25/80]"
+            },
+            {
+              "address": "0x7b87eb",
+              "value": "75",
+              "description": "datefix offset [26/80]"
+            },
+            {
+              "address": "0x7b882a",
+              "value": "75",
+              "description": "datefix offset [27/80]"
+            },
+            {
+              "address": "0x7b9cd0",
+              "value": "75",
+              "description": "datefix offset [28/80]"
+            },
+            {
+              "address": "0x7ba4da",
+              "value": "75",
+              "description": "datefix offset [29/80]"
+            },
+            {
+              "address": "0x7baecd",
+              "value": "75",
+              "description": "datefix offset [30/80]"
+            },
+            {
+              "address": "0x7bc100",
+              "value": "75",
+              "description": "datefix offset [31/80]"
+            },
+            {
+              "address": "0x7bc8bd",
+              "value": "75",
+              "description": "datefix offset [32/80]"
+            },
+            {
+              "address": "0x7bd122",
+              "value": "75",
+              "description": "datefix offset [33/80]"
+            },
+            {
+              "address": "0x7bd844",
+              "value": "75",
+              "description": "datefix offset [34/80]"
+            },
+            {
+              "address": "0x7bf5b6",
+              "value": "75",
+              "description": "datefix offset [35/80]"
+            },
+            {
+              "address": "0x7c4e28",
+              "value": "75",
+              "description": "datefix offset [36/80]"
+            },
+            {
+              "address": "0x7c4e6b",
+              "value": "75",
+              "description": "datefix offset [37/80]"
+            },
+            {
+              "address": "0x7c70be",
+              "value": "75",
+              "description": "datefix offset [38/80]"
+            },
+            {
+              "address": "0x7c70fd",
+              "value": "75",
+              "description": "datefix offset [39/80]"
+            },
+            {
+              "address": "0x7c870e",
+              "value": "75",
+              "description": "datefix offset [40/80]"
+            },
+            {
+              "address": "0x7ca105",
+              "value": "75",
+              "description": "datefix offset [41/80]"
+            },
+            {
+              "address": "0x7ca13e",
+              "value": "75",
+              "description": "datefix offset [42/80]"
+            },
+            {
+              "address": "0x7d1221",
+              "value": "75",
+              "description": "datefix offset [43/80]"
+            },
+            {
+              "address": "0x7d123d",
+              "value": "75",
+              "description": "datefix offset [44/80]"
+            },
+            {
+              "address": "0x7d13ed",
+              "value": "75",
+              "description": "datefix offset [45/80]"
+            },
+            {
+              "address": "0x7d7e69",
+              "value": "75",
+              "description": "datefix offset [46/80]"
+            },
+            {
+              "address": "0x7d7fc5",
+              "value": "75",
+              "description": "datefix offset [47/80]"
+            },
+            {
+              "address": "0x7e3851",
+              "value": "75",
+              "description": "datefix offset [48/80]"
+            },
+            {
+              "address": "0x7e66fb",
+              "value": "75",
+              "description": "datefix offset [49/80]"
+            },
+            {
+              "address": "0x7eec7b",
+              "value": "75",
+              "description": "datefix offset [50/80]"
+            },
+            {
+              "address": "0x7f0a89",
+              "value": "75",
+              "description": "datefix offset [51/80]"
+            },
+            {
+              "address": "0x814b4a",
+              "value": "75",
+              "description": "datefix offset [52/80]"
+            },
+            {
+              "address": "0x8183bd",
+              "value": "75",
+              "description": "datefix offset [53/80]"
+            },
+            {
+              "address": "0x8183fb",
+              "value": "75",
+              "description": "datefix offset [54/80]"
+            },
+            {
+              "address": "0x81846d",
+              "value": "75",
+              "description": "datefix offset [55/80]"
+            },
+            {
+              "address": "0x8184ab",
+              "value": "75",
+              "description": "datefix offset [56/80]"
+            },
+            {
+              "address": "0x825115",
+              "value": "75",
+              "description": "datefix offset [57/80]"
+            },
+            {
+              "address": "0x828daf",
+              "value": "75",
+              "description": "datefix offset [58/80]"
+            },
+            {
+              "address": "0x829b6f",
+              "value": "75",
+              "description": "datefix offset [59/80]"
+            },
+            {
+              "address": "0x82bbfe",
+              "value": "75",
+              "description": "datefix offset [60/80]"
+            },
+            {
+              "address": "0x82bc36",
+              "value": "75",
+              "description": "datefix offset [61/80]"
+            },
+            {
+              "address": "0x83e04e",
+              "value": "75",
+              "description": "datefix offset [62/80]"
+            },
+            {
+              "address": "0x84d5fe",
+              "value": "75",
+              "description": "datefix offset [63/80]"
+            },
+            {
+              "address": "0x84d616",
+              "value": "75",
+              "description": "datefix offset [64/80]"
+            },
+            {
+              "address": "0x84d630",
+              "value": "75",
+              "description": "datefix offset [65/80]"
+            },
+            {
+              "address": "0x84d646",
+              "value": "75",
+              "description": "datefix offset [66/80]"
+            },
+            {
+              "address": "0x84f5c2",
+              "value": "75",
+              "description": "datefix offset [67/80]"
+            },
+            {
+              "address": "0x84f5d7",
+              "value": "75",
+              "description": "datefix offset [68/80]"
+            },
+            {
+              "address": "0x771bac",
+              "value": "75",
+              "description": "datefix offset [69/80]"
+            },
+            {
+              "address": "0x853036",
+              "value": "75",
+              "description": "datefix offset [70/80]"
+            },
+            {
+              "address": "0x853074",
+              "value": "75",
+              "description": "datefix offset [71/80]"
+            },
+            {
+              "address": "0x853247",
+              "value": "75",
+              "description": "datefix offset [72/80]"
+            },
+            {
+              "address": "0x853284",
+              "value": "75",
+              "description": "datefix offset [73/80]"
+            },
+            {
+              "address": "0x853056",
+              "value": "75",
+              "description": "datefix offset [74/80]"
+            },
+            {
+              "address": "0x853094",
+              "value": "75",
+              "description": "datefix offset [75/80]"
+            },
+            {
+              "address": "0x853266",
+              "value": "75",
+              "description": "datefix offset [76/80]"
+            },
+            {
+              "address": "0x8532a4",
+              "value": "75",
+              "description": "datefix offset [77/80]"
+            },
+            {
+              "address": "0x792b90",
+              "value": "75",
+              "description": "datefix offset [78/80]"
+            },
+            {
+              "address": "0x7d11f9",
+              "value": "75",
+              "description": "datefix offset [79/80]"
+            },
+            {
+              "address": "0x7d1209",
+              "value": "75",
+              "description": "datefix offset [80/80]"
             }
           ]
         }
