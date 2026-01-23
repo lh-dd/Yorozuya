@@ -135,6 +135,9 @@
     <ProjectReference Include="..\..\library\MinHook\build\VC15\libMinHook.vcxproj">
       <Project>{f142a341-5ee0-442d-a15f-98ae9b48dbae}</Project>
     </ProjectReference>
+    <ProjectReference Include="..\..\library\P7ClientLib\Sources\P7ClientLib.vcxproj">
+      <Project>{25b1aec5-ff79-475b-afa2-1936b7797005}</Project>
+    </ProjectReference>
     <ProjectReference Include="..\..\YorozuyaGSLib\YorozuyaGSLib.vcxproj">
       <Project>{0e0ea503-b731-3fad-be56-60ac806b69e3}</Project>
     </ProjectReference>

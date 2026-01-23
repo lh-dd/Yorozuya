@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27130.2010
+# Visual Studio Version 18
+VisualStudioVersion = 18.2.11415.280
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Yorozuya", "Yorozuya\Yorozuya.vcxproj", "{4C8EF5AC-A092-49CD-A5FA-85DA93546ACC}"
 EndProject
@@ -50,6 +50,8 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VariousSettings", "Addons\VariousSettings\VariousSettings.vcxproj", "{97B75FFF-E244-4CED-9FCC-43EF826A9CB7}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AccuracyEffect", "Addons\AccuracyEffect\AccuracyEffect.vcxproj", "{7DB14895-DF17-4E19-A0A5-2D2EF33FE89C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "P7ClientLib", "library\P7ClientLib\Sources\P7ClientLib.vcxproj", "{25B1AEC5-FF79-475B-AFA2-1936B7797005}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -135,6 +137,10 @@ Global
 		{7DB14895-DF17-4E19-A0A5-2D2EF33FE89C}.Release|x64.Build.0 = Release|x64
 		{7DB14895-DF17-4E19-A0A5-2D2EF33FE89C}.ReleaseDebug|x64.ActiveCfg = ReleaseDebug|x64
 		{7DB14895-DF17-4E19-A0A5-2D2EF33FE89C}.ReleaseDebug|x64.Build.0 = ReleaseDebug|x64
+		{25B1AEC5-FF79-475B-AFA2-1936B7797005}.Release|x64.ActiveCfg = Release|x64
+		{25B1AEC5-FF79-475B-AFA2-1936B7797005}.Release|x64.Build.0 = Release|x64
+		{25B1AEC5-FF79-475B-AFA2-1936B7797005}.ReleaseDebug|x64.ActiveCfg = Release|x64
+		{25B1AEC5-FF79-475B-AFA2-1936B7797005}.ReleaseDebug|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -160,6 +166,7 @@ Global
 		{E14A9E5E-A018-4FE5-82A6-9AEFBB65253D} = {9B077178-ACCD-4F3E-A838-D899DBB75DEB}
 		{97B75FFF-E244-4CED-9FCC-43EF826A9CB7} = {9B077178-ACCD-4F3E-A838-D899DBB75DEB}
 		{7DB14895-DF17-4E19-A0A5-2D2EF33FE89C} = {9B077178-ACCD-4F3E-A838-D899DBB75DEB}
+		{25B1AEC5-FF79-475B-AFA2-1936B7797005} = {959345FA-F893-4A07-BC18-000AE429E98A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DE57490E-BBC3-4C6B-9B33-6D9A8A3949C3}
