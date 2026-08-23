@@ -75,7 +75,7 @@ namespace GameServer
                 advert_fld item(
                     RapidHelper::GetValueOrDefault(rec, "hide_for_premium", true),
                     RapidHelper::GetValue<::std::string>(rec, "message"),
-                    ::std::chrono::seconds(RapidHelper::GetValue<uint64_t>(rec, "delay"))
+                    ::std::chrono::seconds(RapidHelper::GetValue<uint64_t>(rec, "delay") * 1000)
                 );
                 m_vecRecords.emplace_back(item);
             }
