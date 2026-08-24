@@ -146,6 +146,12 @@
         }
       },
       {
+        "name": "addon.datefix",
+        "config": {
+          "activated": true
+        }
+      },
+      {
         "name": "addon.server_memory_patch",
         "config": {
           "activated": true,

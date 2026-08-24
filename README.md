@@ -10,6 +10,7 @@ Free defense for RFOnline server version 2.2.3.2
 > Do not retarget sdk.<br>
 
 # Main list with fixed bugs
+> Fixed 2022 date bug<br>
 > Fixed coordinate dup<br>
 > Fixed dup through trade<br>
 > Fixed auction<br>
