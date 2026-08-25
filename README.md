@@ -33,7 +33,7 @@ Free defense for RFOnline server version 2.2.3.2
 > Fixed GM command<br>
 > Fixed speed/fly/wall hack<br>
 > Fixed control the use of buffs / skills in siege mode<br>
-> Fixed anti-invisible property and detection mines<br>
+> Fixed anti-invisible property and detection mines (disabled)<br>
 > Fixed use of two potion with the same properties<br>
 > Fixed issuance of premium items<br>
 > Fixed voting + added the ability to hide the sheet with votes, or interest on the list<br>

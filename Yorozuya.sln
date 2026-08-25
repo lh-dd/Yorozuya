@@ -53,6 +53,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AccuracyEffect", "Addons\Ac
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "P7ClientLib", "library\P7ClientLib\Sources\P7ClientLib.vcxproj", "{25B1AEC5-FF79-475B-AFA2-1936B7797005}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DateFix", "Addons\DateFix\DateFix.vcxproj", "{63EC61F8-ABCE-45E0-80B1-653E21B3FB67}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Release|x64 = Release|x64
@@ -141,6 +143,10 @@ Global
 		{25B1AEC5-FF79-475B-AFA2-1936B7797005}.Release|x64.Build.0 = Release|x64
 		{25B1AEC5-FF79-475B-AFA2-1936B7797005}.ReleaseDebug|x64.ActiveCfg = Release|x64
 		{25B1AEC5-FF79-475B-AFA2-1936B7797005}.ReleaseDebug|x64.Build.0 = Release|x64
+		{63EC61F8-ABCE-45E0-80B1-653E21B3FB67}.Release|x64.ActiveCfg = Release|x64
+		{63EC61F8-ABCE-45E0-80B1-653E21B3FB67}.Release|x64.Build.0 = Release|x64
+		{63EC61F8-ABCE-45E0-80B1-653E21B3FB67}.ReleaseDebug|x64.ActiveCfg = ReleaseDebug|x64
+		{63EC61F8-ABCE-45E0-80B1-653E21B3FB67}.ReleaseDebug|x64.Build.0 = ReleaseDebug|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -167,6 +173,7 @@ Global
 		{97B75FFF-E244-4CED-9FCC-43EF826A9CB7} = {9B077178-ACCD-4F3E-A838-D899DBB75DEB}
 		{7DB14895-DF17-4E19-A0A5-2D2EF33FE89C} = {9B077178-ACCD-4F3E-A838-D899DBB75DEB}
 		{25B1AEC5-FF79-475B-AFA2-1936B7797005} = {959345FA-F893-4A07-BC18-000AE429E98A}
+		{63EC61F8-ABCE-45E0-80B1-653E21B3FB67} = {9B077178-ACCD-4F3E-A838-D899DBB75DEB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DE57490E-BBC3-4C6B-9B33-6D9A8A3949C3}

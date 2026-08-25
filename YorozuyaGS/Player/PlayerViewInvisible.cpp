@@ -16,6 +16,7 @@ namespace GameServer
     {
         void CPlayerViewInvisible::load()
         {
+			/*
             enable_hook(
                 (void(ATF::CGameObject::*)(char*, char*, int, bool))&ATF::CGameObject::CircleReport,
                 &CPlayerViewInvisible::CGameObject__CircleReport);
@@ -24,6 +25,7 @@ namespace GameServer
             enable_hook(&ATF::CPlayer::SendMsg_RealMovePoint, &CPlayerViewInvisible::SendMsg_RealMovePoint);
             enable_hook(&ATF::CPlayer::SendMsg_OtherShapePart, &CPlayerViewInvisible::SendMsg_OtherShapePart);
             enable_hook(&ATF::CPlayer::SendMsg_OtherShapeAll, &CPlayerViewInvisible::SendMsg_OtherShapeAll);
+			*/
         }
 
         void CPlayerViewInvisible::unload()
