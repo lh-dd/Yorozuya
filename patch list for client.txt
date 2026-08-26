@@ -1,4 +1,11 @@
+RU/Yoro Bin:
+
 File offset | New Value | Description
 ---------------------------------
 0x1415e6 | 90 B8 01 00 00 00 | For fix set items
 0x144f8e | EB | For stone hp view
+0x134A91 | F7 ED 01 00 | For dwProtocolVer
+
+PlayRF/RF-Dev Bin:
+
+0x147987 | F7 ED 01 00 | For dwProtocolVer
