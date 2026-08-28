@@ -16,6 +16,9 @@ namespace GameServer
         
         void CAccuracyEffect::load()
         {
+            if (!m_bActivated)
+                return;
+
             enable_hook(&ATF::CPlayer::apply_normal_item_std_effect, &CAccuracyEffect::apply_normal_item_std_effect);
             enable_hook(&ATF::CPlayer::apply_have_item_std_effect, &CAccuracyEffect::apply_have_item_std_effect);
             enable_hook(&ATF::CAttack::AttackForce, &CAccuracyEffect::AttackForce);

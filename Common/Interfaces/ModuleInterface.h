@@ -45,6 +45,12 @@ namespace Yorozuya
     {
         using MethodName_t = char[];
 
+        static constexpr uint32_t ADDON_SIGNATURE = 0x010404;
+
+        uint32_t GetYorozuyaAddonSignature();
+        using GetAddonSignature_ptr = decltype(&GetYorozuyaAddonSignature);
+        static MethodName_t csNameGetAddonSignature = "GetYorozuyaAddonSignature";
+
         Module::IModule* CreateModule();
         using CreateModule_ptr = decltype(&CreateModule);
         static MethodName_t csNameCreateModule = "CreateModule";

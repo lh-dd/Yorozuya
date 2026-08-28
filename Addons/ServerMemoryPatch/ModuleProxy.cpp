@@ -19,3 +19,9 @@ void ReleaseModule(Yorozuya::Module::IModule* pObj)
 {
     ModuleProxy::CModuleProxy<CServerMemoryPatch>::get_instance()->ReleaseModule(pObj);
 }
+
+extern "C" DllExport
+uint32_t GetYorozuyaAddonSignature()
+{
+    return Yorozuya::ModuleApi::ADDON_SIGNATURE;
+}

@@ -21,6 +21,9 @@ namespace GameServer
 
         void CExchangeSettings::load()
         {
+            if (!m_bActivated)
+                return;
+
             m_pParent->enable_hook(&ATF::CPlayer::pc_ExchangeDalantForGold, &CExchangeSettings::pc_ExchangeDalantForGold);
             m_pParent->enable_hook(&ATF::CPlayer::pc_ExchangeGoldForDalant, &CExchangeSettings::pc_ExchangeGoldForDalant);
         }

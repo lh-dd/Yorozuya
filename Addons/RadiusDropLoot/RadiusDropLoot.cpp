@@ -16,6 +16,9 @@ namespace GameServer
 
         void CRadiusDropLoot::load()
         {
+            if (!m_bActivated)
+                return;
+
             enable_hook(
                 (ATF::Global::Info::CreateItemBox111_ptr)&ATF::Global::CreateItemBox,
                 &CRadiusDropLoot::CreateItemBox);

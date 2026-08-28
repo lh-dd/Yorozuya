@@ -33,6 +33,9 @@ namespace GameServer
 
         void CDefenceFormula::load()
         {
+            if (!m_bActivated)
+                return;
+
             enable_hook(&ATF::CCharacter::GetTotalTol, &CDefenceFormula::GetTotalTol);
             enable_hook(&ATF::CCharacter::GetAttackDamPoint, &CDefenceFormula::GetAttackDamPoint);
         }

@@ -21,6 +21,9 @@ namespace GameServer
 
         void CMauExp::load()
         {
+            if (!m_bActivated)
+                return;
+
             enable_hook(&ATF::CPlayer::CalcExp, &CMauExp::CalcExp);
         }
 

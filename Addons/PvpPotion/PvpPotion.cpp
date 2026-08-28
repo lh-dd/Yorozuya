@@ -18,6 +18,9 @@ namespace GameServer
 
         void CPvpPotion::load()
         {
+            if (!m_bActivated)
+                return;
+
             TempEffectFunc_Ptr* origTempEffectFunc = (TempEffectFunc_Ptr*)0x14096CDF0L;
             for (int i = 0; i < detail::count_orig_effect_func; ++i)
             {

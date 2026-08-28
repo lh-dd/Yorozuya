@@ -31,6 +31,9 @@ namespace GameServer
 
         void CChatLog::load()
         {
+            if (!m_bActivated)
+                return;
+
             enable_hook(&ATF::CPlayer::pc_ChatCircleRequest, &CChatLog::pc_ChatCircleRequest);
             enable_hook(&ATF::CPlayer::pc_ChatFarRequest, &CChatLog::pc_ChatFarRequest);
             enable_hook(&ATF::CPlayer::pc_ChatPartyRequest, &CChatLog::pc_ChatPartyRequest);

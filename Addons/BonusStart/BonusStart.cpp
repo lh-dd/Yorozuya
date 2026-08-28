@@ -24,6 +24,9 @@ namespace GameServer
 
         void CBonusStart::load()
         {
+            if (!m_bActivated)
+                return;
+
             enable_hook(&ATF::CPlayer::CreateComplete, &CBonusStart::CreateComplete);
         }
 

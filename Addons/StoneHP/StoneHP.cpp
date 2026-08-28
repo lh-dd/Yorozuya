@@ -29,6 +29,9 @@ namespace GameServer
 
         void CStoneHP::load()
         {
+            if (!m_bActivated)
+                return;
+
             enable_hook(&ATF::CHolyStoneSystem::SendNotifyHolyStoneDestroyedToRaceBoss, &CStoneHP::SendNotifyHolyStoneDestroyedToRaceBoss);
             enable_hook(&ATF::CHolyStoneSystem::SendHolyStoneHPToRaceBoss, &CStoneHP::SendHolyStoneHPToRaceBoss);
             enable_hook(&ATF::CHolyStoneSystem::SendHolyStoneHP, &CStoneHP::SendHolyStoneHP);

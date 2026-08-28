@@ -18,6 +18,9 @@ namespace GameServer
 
         void CReplaceLootName::load()
         {
+            if (!m_bActivated)
+                return;
+
             enable_hook(&ATF::CItemBox::SendMsg_Create, &CReplaceLootName::SendMsg_Create);
             enable_hook(&ATF::CItemBox::SendMsg_FixPosition, &CReplaceLootName::SendMsg_FixPosition);
             enable_hook(&ATF::CPlayer::pc_TakeGroundingItem, &CReplaceLootName::pc_TakeGroundingItem);
@@ -30,6 +33,9 @@ namespace GameServer
 
         void CReplaceLootName::zone_start()
         {
+            if (!m_bActivated)
+                return;
+
             int nTableCode = ATF::Global::GetItemTableCode((char *)m_sItemCode.c_str());
             if (nTableCode == -1)
             {

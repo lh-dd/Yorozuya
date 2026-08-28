@@ -18,21 +18,42 @@ namespace ModuleDllHelper
             m_hDll = LoadLibraryW(dll_path.generic_wstring().c_str());
             assert(m_hDll != NULL);
 
+            auto fnGetAddonSignature =
+                (ModuleApi::GetAddonSignature_ptr)
+                GetProcAddress(
+                    m_hDll,
+                    ModuleApi::csNameGetAddonSignature);
+
+            if (fnGetAddonSignature == NULL ||
+                fnGetAddonSignature() != ModuleApi::ADDON_SIGNATURE)
+            {
+                FreeLibrary(m_hDll);
+                m_hDll = NULL;
+
+                ATF::Global::MyMessageBox("GetAddonSignature", "Addon folder contains incompatible dlls");
+                throw std::runtime_error("GetAddonSignature - missing addon signature");
+            }
+
             m_fnCreateModule = (ModuleApi::CreateModule_ptr)GetProcAddress(m_hDll, ModuleApi::csNameCreateModule);
             m_fnReleaseModule = (ModuleApi::ReleaseModule_ptr)GetProcAddress(m_hDll, ModuleApi::csNameReleaseModule);
 
             m_impl = std::move(
                 Module::Module_ptr(
-                    m_fnCreateModule(), 
-                    [&](Module::IModule* obj) { 
-                        m_fnReleaseModule(obj); 
+                    m_fnCreateModule(),
+                    [fnRelease = m_fnReleaseModule](Module::IModule* obj) {
+                        fnRelease(obj);
                     }));
         };
 
         virtual ~CModuleDll()
         {
             m_impl.reset();
-            CloseHandle(m_hDll);
+
+            if (m_hDll != NULL)
+            {
+                FreeLibrary(m_hDll);
+                m_hDll = NULL;
+            }
         }
 
         virtual void load() override
