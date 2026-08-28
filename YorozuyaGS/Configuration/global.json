@@ -145,6 +145,13 @@
           "trade": true
         }
       },
+	  {
+        "name": "addon.autoloot",
+        "config": {
+          "activated": false,
+          "PitBossNormalDrop": true
+        }
+      },
       {
         "name": "addon.datefix",
         "config": {
