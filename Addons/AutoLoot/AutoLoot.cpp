@@ -88,6 +88,9 @@ namespace GameServer
 						if (item.m_bLock)
 							continue;
 
+						if (!ATF::Global::IsOverLapItem(pItem->m_byTableCode))
+							continue;
+
 						if (item.m_byTableCode != pItem->m_byTableCode)
 							continue;
 
